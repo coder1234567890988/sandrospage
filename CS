@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>CS Projects</title>
+</head>
+<body>
+<a href=".">Go back to home</a> <br>
+<h1>Video game development:</h1>
+<p1>I have made a lot of different games in my free time using the Godot game engine, which are all posted on itch.io. They were all made for game competitions hosted online. Generally I choose Godot as a game engine, as I feel it is a lot more lightweight
+  and fast compared to more tradional ones like Unity or Unreal Engine [this is especially useful as my computer is not particularly powerful]. I also feel it is generally much easier to use and programme in.<br></p1>
+<h3>Blok<br></h3>
+<p1>This game is my most complete one so far. It is a small puzzle platformer and was made in around 2 days. 
+  It's based around a simple 'swapping' mechanic that I explore over the rest of the levels.
+  Although it's not very long (and new mechanics could have been included), I still enjoyed making it a lot. Programming wise it is not too complicated 
+other than having setting up to set up modular code for organizing levels. Generally I feel it is easier to programme puzzle games, as you just need to set up
+the initial logic once for the puzzles to work and it can then be reapplied to every level.<br></p1>
+<a href="https://kazakking.itch.io/blok">Visit the website with the game<br></a>
+<h3>Mecon<br></h3>
+<p1>This game is my most recent one. It is an exploration game but is very short. It took around 7 days.
+  This game I wanted to focus more on art and environment as my other game Blok was quite minimalist, 
+  and I think I succeeded in that regard however it was as a result a lot more time consuming to make. Programming wise Godot does make it quite easy
+to add parallax effect and animate however it took a while to get the physics for the robot correct. 
+   <br></p1>
+<a href="https://kazakking.itch.io/mecon">Visit the website with the game<br></a>
+<h3>Spinatus<br></h3>
+<p1>This game I have spent the most time on, which is about ~20 days. It is a topdown shooter boss rush. For this game I had to think
+a lot about how to apply modular code such that it can be applied for every boss including the player, examples of this might include a physical
+body script that deals with collisions and appearance or a hp script that deals with keeping tracking of a health value along with setting up hit frames
+and hit detections. 
+  <br></p1>
+
+<a href="https://kazakking.itch.io/spinatus">Visit the website with the game<br></a>
+<h3>A-Bounce-around<br></h3>
+<p1>This was my first experiment with the Godot engine. It's a very simple game as I did not want to make
+  my first project in Godot too complex. This game took around 2 days.<br></p1>
+<a href="https://kazakking.itch.io/a-bounce-around">Visit the website with the game<br></a>
+<h3>Duo-Megethos<br></h3>
+<p1>This was my first game competition game. It is quite short and programming wise was done very poorly, currently I am revamping the game and making 
+it more polished along with adding new levels. It will include features that I previously was not able to program into the game, for example one player 
+below another being able to jump and carry the player above them. The game took 4 days to complete.<br></p1>
+
+<a href="https://kazakking.itch.io/duo-megethos">Visit the website with the game<br></a>
+<h1>Miscellaneous coding projects:</h1>
+<p1>These are small projects made on the console with languages like Java, C++ and python. They use the IDE replit. <br></p1>
+<h3>Simon says<br></h3>
+<p1>This is a small game of simon says made on Java.<br></p1>
+<a href="https://replit.com/@SandroFuentes/simon-says?v=1#Main.java">Visit the replit website with the game<br></a>
+<h3>2.5D raycaster<br></h3>
+<p1>This is a program that runs a 3D perspective of a 2D space using Java. It's not perfect and is quite unoptimized but I am quite proud of it.<br></p1>
+<a href="https://replit.com/@SandroFuentes/3d-raycaster-5?v=1#src/main/java/Main.java">Visit the replit website with the game<br></a>
+
+<h1>Math projects:</h1>
+<p1>Along with making video games, I also find math quite interesting and have done some experimenting with different
+  turtle graph fractals and have written a math research paper. Note that this is put under the CS section since I use a lot of programming to help do these projects [as they all relate to cellular automata or fractals]. <br></p1>
+
+<h3>Modulo 2 Look-and-say sequence<br></h3>
+<p1>I have written a math research paper on an interesting variation of the Look-and-say sequence that I have not been
+  able to find any research on online. This paper involved the use of Matplotlib along with google colab and PIL to help
+  create visual graphs and patterns. I will admit I used ChatGpt to help find some math terminology and help in figuring 
+  out how to write the script for the visual patterns shown on the bottom of the paper. However everything else was done by me only. 
+</p1>
+
+
+
+</body>
+</html>
