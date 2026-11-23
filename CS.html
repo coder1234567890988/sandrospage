@@ -8,13 +8,22 @@
 <p1>I have made a lot of different games in my free time using the Godot game engine, which are all posted on itch.io. They were all made for game competitions hosted online. Generally I choose Godot as a game engine, as I feel it is a lot more lightweight
   and fast compared to more tradional ones like Unity or Unreal Engine [this is especially useful as my computer is not particularly powerful]. I also feel it is generally much easier to use and programme in.
   My account under the name 'kazakking' currently has around 400 views. <br></p1>
-<h3>Blok<br></h3>
-<p1>This game is my most complete one so far. It is a small puzzle platformer and was made in around 2 days. 
-  It's based around a simple 'swapping' mechanic that I explore over the rest of the levels.
-  Although it's not very long (and new mechanics could have been included), I still enjoyed making it a lot. It has helped teach me how to implement
-  modular code to easily create new levels. <br></p1>
+  <h3>Duo-Megethos (original)<br></h3>
+<p1>This was my first game competition game. It is quite short and took 4 days to complete. 
+  This was my first attempt to create a proper game, but I was still limited in my programming ability back then
+  thus it is quite buggy and rushed.
+  <a href="https://https://kazakking.itch.io/duo-megethos">Visit the website with the game<br></a>
   
-<a href="https://kazakking.itch.io/blok">Visit the website with the game<br></a>
+  Currently I am creating a revamped version of the game. This game will include a full story mode and a save system done through
+  the use of a JSON file and read/write instructions to keep track of levels beat. An online messaging system will also be included where players can leave a 
+  message on a specific level which other players can read if they want to. This means I have used the website NEON to help provide
+  me with a free database and API that can be hosted outside of my computer. Although they give limited storage space, around 1 Gigabyte, 
+  I think it is fine for my project as I don't except it to get super popular. To access the database, Two HTTP requests have to be sent from the game to the database made
+  in Neon. The first HTTP request fetches a 'token' from the projects authorization URL and that token is then included in the headers of the second HTTP
+  request which is towards the data API that handles read/write instructions to tables in the database. The only permisssions granted are to read the database and to
+  insert, as that is the maximum any one player will need to use the message system.
+  <br></p1>
+
 <h3>Mecon<br></h3>
 <p1>This game is my most recent one. It is an exploration game but is very short. It took around 7 days.
   I used godots features to include parallax effect in the background and also set up lighting for an immersive experience. 
@@ -32,40 +41,11 @@ a lot about how to apply modular code such that it can be applied for every boss
 body script that deals with collisions and appearance or a script that deals with keeping tracking of a health value along with setting up hit frames
 and hit detections. I also had to set up different 'bullet types' that the bosses and players alike use. 
   <br></p1>
-
-<a href="https://kazakking.itch.io/spinatus">Visit the website with the game<br></a>
-<h3>A-Bounce-around<br></h3>
-<p1>This was my first experiment with the Godot engine. It's a very simple game. This game took around 2 days.<br></p1>
-<a href="https://kazakking.itch.io/a-bounce-around">Visit the website with the game<br></a>
-<h3>Duo-Megethos (original)<br></h3>
-<p1>This was my first game competition game. It is quite short and took 4 days to complete. 
-  This was my first attempt to create a proper game, but I was still limited in my programming ability back then
-  thus it is quite buggy and rushed.
-  Currently I am creating a revamped version of the game. This game will include a full story mode and a save system done through
-  the use of a JSON file to keep track of levels beat. An online messaging system will also be included where players can leave a 
-  message on a specific level which other players can read if they want to. This means I have used the website NEON to help provide
-  me with a free database and API that can be hosted outside of my computer. Although they give limited storage space, around 1 Gigabyte, 
-  I think it is fine for my project as I don't except it to get super popular. Addtionally, the only data being saved for an individual
-  message is these 6 values: the messages x position in the level, the messages y position in the level, the message text, level_id and created_at.
-  This created_at value is especially useful as I will be able to set up a script to delete a message if it lasts more than 3 months (as an example)
-  and thus save up on storage. Also a censorship system will have to be included so players can't just type out profanities.
   
-  
-  <br></p1>
-
-<a href="https://kazakking.itch.io/duo-megethos">Visit the website with the game<br></a>
-<h1>Miscellaneous coding projects:</h1>
-<p1>These are small projects made on the console with languages like Java, C++ and python. They use the IDE replit. <br></p1>
-<h3>Simon says<br></h3>
-<p1>This is a small game of simon says made on Java.<br></p1>
-<a href="https://replit.com/@SandroFuentes/simon-says?v=1#Main.java">Visit the replit website with the game<br></a>
-<h3>2.5D raycaster<br></h3>
-<p1>This is a program that runs a 3D perspective of a 2D space using Java. It's not perfect and is quite unoptimized but I am quite proud of it.<br></p1>
-<a href="https://replit.com/@SandroFuentes/3d-raycaster-5?v=1#src/main/java/Main.java">Visit the replit website with the game<br></a>
 
 <h1>Math projects:</h1>
 <p1>Along with making video games, I also find math quite interesting and have done some experimenting with different
-  turtle graph fractals and have written a math research paper. Note that this is put under the CS section since I use a lot of programming to help do these projects [as they all relate to cellular automata or fractals]. <br></p1>
+  turtle graph fractals and have written a math research paper. <br></p1>
 
 <h3>Modulo 2 Look-and-say sequence<br></h3>
 <p1>I have written a math research paper on an interesting variation of the Look-and-say sequence that I have not been
